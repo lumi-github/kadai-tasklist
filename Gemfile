@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'thor', '0.19.4'
 gem 'kaminari'
 gem 'bcrypt', '~> 3.1.7'
 gem 'pry-byebug', group: :development
